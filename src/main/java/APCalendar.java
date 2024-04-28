@@ -59,8 +59,8 @@ public class APCalendar
   public static int dayOfWeek(int month, int day, int year)
   {
     int dayOfTheYear = dayOfYear(month, day, year);
-    int firstDayOfYear = firstDayOfYear(year);
-    int day = firstDayOfYear;
+    int firstDayOfTheYear = firstDayOfYear(year);
+    int day = firstDayOfTheYear;
     for (int i = 0; i < dayOfTheYear; i++)
       {
         if (day == 7)
