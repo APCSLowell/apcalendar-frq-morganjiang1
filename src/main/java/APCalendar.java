@@ -60,15 +60,15 @@ public class APCalendar
   {
     int dayOfTheYear = dayOfYear(month, day, year);
     int firstDayOfTheYear = firstDayOfYear(year);
-    int day = firstDayOfTheYear;
+    int days = firstDayOfTheYear;
     for (int i = 0; i < dayOfTheYear; i++)
       {
-        if (day == 7)
+        if (days == 7)
         {
-          day = 0;
+          days = 0;
         }
-        day++;
+        days++;
       }
-    return day;
+    return days;
   }
 }
