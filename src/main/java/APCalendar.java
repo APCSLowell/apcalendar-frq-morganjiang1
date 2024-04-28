@@ -63,11 +63,11 @@ public class APCalendar
     int days = firstDayOfTheYear;
     for (int i = 0; i < dayOfTheYear; i++)
       {
+        days++;
         if (days == 7)
         {
           days = 0;
         }
-        days++;
       }
     return days;
   }
