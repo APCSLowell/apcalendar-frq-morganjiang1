@@ -61,7 +61,7 @@ public class APCalendar
     int dayOfTheYear = dayOfYear(month, day, year);
     int firstDayOfTheYear = firstDayOfYear(year);
     int days = firstDayOfTheYear;
-    for (int i = 0; i < dayOfTheYear; i++)
+    for (int i = 1; i < dayOfTheYear; i++)
       {
         days++;
         if (days == 7)
